@@ -18,5 +18,14 @@
   };
 
   $otherbutton.onclick = onclickOtherButton;
+
+  const $colorbutton = document.getElementById("submitColor");
+  const $colorinput = document.getElementById("colorName");
+
+  const onclickColorButton = (e) => {
+    alert($colorinput.value);
+  };
+
+  $colorbutton.onclick = onclickColorButton;
   
 })();
