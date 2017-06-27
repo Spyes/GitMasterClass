@@ -10,4 +10,13 @@
 
   $button.onclick = onclickButton;
 
+  const $otherbutton = document.getElementById("submitQuest");
+  const $otherinput = document.getElementById("questName");
+
+  const onclickOtherButton = (e) => {
+    alert($otherinput.value);
+  };
+
+  $otherbutton.onclick = onclickOtherButton;
+  
 })();
